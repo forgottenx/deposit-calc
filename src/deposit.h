@@ -2,5 +2,5 @@
 #define VALUE
 float InputValue();
 int InputTime();
-int TaskCalculations(int, float);
+void TaskCalculations(int, float);
 #endif 
