@@ -44,4 +44,4 @@ validation_test.o: $(TEST_PATH)/validation_test.c
 .PHONY: clean
 clean:
 	rm -r -f bin/*
-rm -r -f build/*
+	rm -r -f build/*
