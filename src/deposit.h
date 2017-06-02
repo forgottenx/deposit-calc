@@ -1,6 +1,6 @@
 #ifndef VALUE
 #define VALUE
-float InputValue();
-int InputTime();
-void TaskCalculations(int, float);
+int InputValue(double v);
+int InputTime(int i);
+double TaskCalculations(int t, double v);
 #endif 
