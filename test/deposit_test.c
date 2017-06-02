@@ -4,7 +4,7 @@
 double v=99999;
 CTEST(caclulation_value_near, calculation_time30)
 {
-	ASSERT_DBL_NEAR_TOL(99177, TaskCalculations(30, v), 1);
+	ASSERT_DBL_NEAR_TOL(9177, TaskCalculations(30, v), 1);
 }
 CTEST(caclulation_value_near, calculation_time31)
 {
